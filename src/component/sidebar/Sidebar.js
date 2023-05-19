@@ -7,7 +7,7 @@ const Sidebar = () => {
     <div className="w-[20vw] bg-[#F9F9F9] h-[100vh] border-r-[1px] border-solid border-r-gray-200 ">
       <div className="px-5  text-lg font-bold flex items-center gap-x-3 justify-center">
       {/* <span class="material-symbols-outlined">hive</span> */}
-      <img src={img} className="w-[61%]"  />
+      <img src={img} className="w-[50%]"  />
 
     
       </div>

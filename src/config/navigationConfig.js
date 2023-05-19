@@ -11,27 +11,27 @@ icon: 'chat',
     url:"/member",
     icon: 'group',
 },
-{
-    id:"integragtions",
-    title:"Integerations",
-    url:"/integration",
-    icon: 'sync_alt',
+// {
+//     id:"integragtions",
+//     title:"Integerations",
+//     url:"/integration",
+//     icon: 'sync_alt',
 
-},
-{
-    id:"referfriend",
-    title:"Refer friends",
-    url:"/refer",
-    icon:'share',
+// },
+// {
+//     id:"referfriend",
+//     title:"Refer friends",
+//     url:"/refer",
+//     icon:'share',
 
-},
-{
-    id:"pricing",
-    title:"Pricing Plans",
-    url:'/pricing',
-    icon:"attach_money"
+// },
+// {
+//     id:"pricing",
+//     title:"Pricing Plans",
+//     url:'/pricing',
+//     icon:"attach_money"
 
-},
+// },
 {
     id:"setting",
     title:"Settings",

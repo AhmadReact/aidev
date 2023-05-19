@@ -1,13 +1,15 @@
 import React from "react";
 import navigationConfig from "../../config/navigationConfig";
 import Icon from "@mui/material/Icon";
-
+import img from "../../assets/images/icon.png"
 const Sidebar = () => {
   return (
     <div className="w-[20vw] bg-[#F9F9F9] h-[100vh] border-r-[1px] border-solid border-r-gray-200 ">
-      <div className="p-5 text-lg font-bold flex items-center gap-x-3">
-      <span class="material-symbols-outlined">hive</span>
-      Superpage
+      <div className="px-5  text-lg font-bold flex items-center gap-x-3 justify-center">
+      {/* <span class="material-symbols-outlined">hive</span> */}
+      <img src={img} className="w-[61%]"  />
+
+    
       </div>
 
       {navigationConfig.map((obj) => {

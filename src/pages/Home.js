@@ -5,6 +5,8 @@ import SearchHistory from '../component/searchhistory/SearchHistory'
 import MyChat from '../component/chat/Chat'
 
 const Home = () => {
+
+
   return (
         <div className='flex'>
 

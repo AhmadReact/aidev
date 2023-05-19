@@ -4,12 +4,12 @@ const CustomTextfield = () => {
   return (
     <div className='bg-[#6B44E2]   rounded-xl mt-4'>
         <div className='bg-white h-[45px] w-full border-[1px] border-solid  border-[#6B44E2]  rounded-lg flex items-center gap-x-2 '>
-            <input  type   className='pl-[15px] h-[43px] w-[90%]  rounded-lg focus:outline-none'
+            <input  type   className='pl-[15px] h-[43px] w-[94%]  rounded-lg focus:outline-none'
             placeholder='Type new questions'
             />
-            <span class="material-symbols-outlined text-[#525354] cursor-pointerd cursor-pointer">
+            {/* <span class="material-symbols-outlined text-[#525354] cursor-pointerd cursor-pointer">
 mic
-</span>
+</span> */}
 <span class="material-symbols-outlined text-[#525354] cursor-pointer">
 near_me
 </span>

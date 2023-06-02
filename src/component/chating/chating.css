@@ -1,0 +1,20 @@
+.typed {
+    line-height: 20px;
+    width: 80%;
+    font-size: 100%;
+    text-align: left;
+   
+    vertical-align: text-bottom;
+}
+
+.typed::after{
+    content: "|";
+    font-size: 100%;
+    line-height: 20px;
+    animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { color: transparent }
+    50% { color: rgb(216, 211, 211) }
+}

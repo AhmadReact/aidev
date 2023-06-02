@@ -3,9 +3,9 @@ import { Button } from "@mui/material";
 import React from "react";
 import CustomTextfield from "../customtextfield/CustomTextfield";
 
-const MyChat = () => {
+const MyChat = ({setChatArray,chatArray,prevChat,uniqueid,setuniqueid}) => {
   return (
-    <div className="mt-6 w-[800px] fixed bottom-7 flex flex-col justify-end">
+    <div className="w-[800px] fixed bottom-7 flex flex-col justify-end">
       {/* Chat Suggestions
     <div className="flex justify-between items-center mt-4 ">
       <div className="flex gap-x-3 ">
@@ -27,7 +27,7 @@ const MyChat = () => {
       </div> */}
 
         <div>
-            <CustomTextfield/>
+            <CustomTextfield setChatArray={setChatArray} chatArray={chatArray} prevChat={prevChat} uniqueid={uniqueid} setuniqueid={setuniqueid} />
             
         </div>
 

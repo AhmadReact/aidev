@@ -8,9 +8,10 @@ export function generateResponse(req) {
       var requestOptions = {
         method: "GET",
         redirect: "follow",
+        referrerPolicy: "unsafe_url" ,
       };
   
-      fetch("http://54.167.240.92/query?text="+req)
+      fetch("http://54.167.240.92/query?text="+req,requestOptions)
         .then((response) => response.json())
         .then((result) => {
           resolve(result);
